@@ -1,0 +1,318 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 208
+(defrule rule1
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 60 && power <= 80})
+	(engineEconomy {economy > 3 && economy <= 5})
+	(carPrice {price > 38000 && price <= 44000})
+	(carEquipment {equipment == podstawowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 PureTech 1.0 68KM Access 4,3 l/100km 40000zl " crlf)
+bind ?*zmienna* 1)
+)
+;;
+(defrule rule2
+    (carType {type == kompaktowy})
+	(carSize {size == maly})	
+	(enginePower {power >= 75 && power <= 90})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 40000 && price <= 53000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 PureTech 1.2 82KM Active 4,5 l/100km 49100zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule3
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 130 && power <= 170})
+	(engineEconomy {economy > 4 && economy <= 7})
+	(carPrice {price > 50000 && price <= 75000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 THP 1.6 155KM Allure 5,6 l/100km 62000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule4
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 100 && power <= 140})
+	(engineEconomy {economy > 4 && economy <= 7})
+	(carPrice {price > 45000 && price <= 65000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 VTi 1.6 120KM Allure 5,6 l/100km 56000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule5
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 52 && power <= 102})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 45000 && price <= 65000})
+	(carEquipment {equipment == podstawowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 PureTech 1.2 82KM Access 4,5 l/100km 44000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule6
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 52 && power <= 102})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 45000 && price <= 65000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 PureTech 1.2 82KM Active 4,5 l/100km 47000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule7
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 52 && power <= 102})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 45000 && price <= 65000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 PureTech 1.2 82KM Allure 4,5 l/100km 52000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule8
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 100 && power <= 140})
+	(engineEconomy {economy > 4 && economy <= 7})
+	(carPrice {price > 45000 && price <= 65000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 VTi 1.6 120KM Allure 5,6 l/100km 55000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule9
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 40 && power <= 80})
+	(engineEconomy {economy > 2 && economy <= 5})
+	(carPrice {price > 35000 && price <= 65000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 HDi 1.4 68KM Active 3,6 l/100km 49600zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule10
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 40 && power <= 80})
+	(engineEconomy {economy > 2 && economy <= 5})
+	(carPrice {price > 35000 && price <= 65000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 HDi 1.4 68KM Allure 3,6 l/100km 52400zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule11
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 70 && power <= 110})
+	(engineEconomy {economy > 2 && economy <= 5})
+	(carPrice {price > 45000 && price <= 8000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 e-HDi 1.6 92KM Allure 3,6 l/100km 62700zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule12
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 70 && power <= 110})
+	(engineEconomy {economy > 2 && economy <= 5})
+	(carPrice {price > 45000 && price <= 8000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 e-HDi 1.6 92KM Active 3,6 l/100km 57700zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2008
+;;
+(defrule rule13
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 65 && power <= 95})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 45000 && price <= 80000})
+	(carEquipment {equipment == podstawowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 PureTech 1.2 82KM Access 4,9 l/100km 55300zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule14
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 65 && power <= 95})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 48000 && price <= 80000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 PureTech 1.2 82KM Active 4,9 l/100km 62000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule15
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 65 && power <= 95})
+	(engineEconomy {economy > 3 && economy <= 6})
+	(carPrice {price > 52000 && price <= 82000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 PureTech 1.2 82KM Allure 4,9 l/100km 68500zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule16
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 100 && power <= 140})
+	(engineEconomy {economy > 4 && economy <= 7})
+	(carPrice {price > 51000 && price <= 86000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 VTi 1.6 120KM Active 5,9 l/100km 66600zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule17
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 100 && power <= 140})
+	(engineEconomy {economy > 4 && economy <= 7})
+	(carPrice {price > 61000 && price <= 96000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 VTi 1.6 120KM Allure 5,9 l/100km 73100zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule18
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 48 && power <= 88})
+	(engineEconomy {economy > 3 && economy <= 5})
+	(carPrice {price > 55000 && price <= 85000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 HDi 1.4 68KM Active 4,0 l/100km 68500zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule19
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 70 && power <= 110})
+	(engineEconomy {economy > 3 && economy <= 5})
+	(carPrice {price > 58000 && price <= 90000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 e-HDi 1.6 92KM Active 4,0 l/100km 74100zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule20
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 70 && power <= 110})
+	(engineEconomy {economy > 3 && economy <= 5})
+	(carPrice {price > 65000 && price <= 95000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 e-HDi 1.6 92KM Allure 4,0 l/100km 80600zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+;;
+(defrule rule21
+    (carType {type == kompaktowy})
+	(carSize {size == maly})
+	(enginePower {power >= 90 && power <= 135})
+	(engineEconomy {economy > 3 && economy <= 5})
+	(carPrice {price > 70000 && price <= 100000})
+	(carEquipment {equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 2008 e-HDi 1.6 115KM Allure 4,0 l/100km 85000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;308
