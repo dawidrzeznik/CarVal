@@ -319,7 +319,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule22
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 65 && power <= 100})
 	(engineEconomy {economy > 4 && economy <= 6})
 	(carPrice {price > 65000 && price <= 95000})
@@ -334,7 +334,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule23
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 65 && power <= 100})
 	(engineEconomy {economy > 4 && economy <= 6})
 	(carPrice {price > 55000 && price <= 80000})
@@ -349,7 +349,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule24
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 95 && power <= 125})
 	(engineEconomy {economy > 3 && economy <= 6})
 	(carPrice {price > 55000 && price <= 80000})
@@ -364,7 +364,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule25
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 95 && power <= 125})
 	(engineEconomy {economy > 3 && economy <= 6})
 	(carPrice {price > 60000 && price <= 85000})
@@ -379,7 +379,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule26
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 95 && power <= 125})
 	(engineEconomy {economy > 3 && economy <= 6})
 	(carPrice {price > 65000 && price <= 90000})
@@ -394,7 +394,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule27
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 110 && power <= 150})
 	(engineEconomy {economy > 3 && economy <= 6})
 	(carPrice {price > 60000 && price <= 90000})
@@ -409,7 +409,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule28
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 110 && power <= 150})
 	(engineEconomy {economy > 3 && economy <= 6})
 	(carPrice {price > 65000 && price <= 95000})
@@ -424,7 +424,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule28
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 75 && power <= 115})
 	(engineEconomy {economy > 2 && economy <= 5})
 	(carPrice {price > 55000 && price <= 85000})
@@ -439,7 +439,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule29
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 75 && power <= 115})
 	(engineEconomy {economy > 2 && economy <= 5})
 	(carPrice {price > 60000 && price <= 90000})
@@ -454,7 +454,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule30
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 2 && economy <= 5})
 	(carPrice {price > 60000 && price <= 90000})
@@ -469,7 +469,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule31
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 2 && economy <= 5})
 	(carPrice {price > 65000 && price <= 95000})
@@ -484,7 +484,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule32
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 2 && economy <= 5})
 	(carPrice {price > 75000 && price <= 105000})
@@ -499,7 +499,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule33
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 135 && power <= 165})
 	(engineEconomy {economy > 3 && economy <= 5})
 	(carPrice {price > 85000 && price <= 115000})
@@ -515,7 +515,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule34
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 5 && economy <= 8})
 	(carPrice {price > 30000 && price <= 60000})
@@ -530,7 +530,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule34
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 5 && economy <= 8})
 	(carPrice {price > 35000 && price <= 60000})
@@ -545,7 +545,7 @@ bind ?*zmienna* 1)
 ;;
 (defrule rule35
     (carType {type == kompaktowy})
-	(carSize {size == maly})
+	(carSize {size == duzy})
 	(enginePower {power >= 75 && power <= 105})
 	(engineEconomy {economy > 3 && economy <= 5})
 	(carPrice {price > 35000 && price <= 60000})
@@ -560,7 +560,7 @@ bind ?*zmienna* 1)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3008
 ;;
 (defrule rule36
-    (carType {type == kompaktowy})
+    (carType {type == rodzinny})
 	(carSize {size == maly})
 	(enginePower {power >= 140 && power <= 170})
 	(engineEconomy {economy > 5 && economy <= 8})
@@ -575,7 +575,7 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule37
-    (carType {type == kompaktowy})
+    (carType {type == rodzinny})
 	(carSize {size == maly})
 	(enginePower {power >= 140 && power <= 170})
 	(engineEconomy {economy > 5 && economy <= 8})
@@ -590,7 +590,7 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule38
-    (carType {type == kompaktowy})
+    (carType {type == rodzinny})
 	(carSize {size == maly})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 5 && economy <= 8})
@@ -605,7 +605,7 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule39
-    (carType {type == kompaktowy})
+    (carType {type == rodzinny})
 	(carSize {size == maly})
 	(enginePower {power >= 135 && power <= 165})
 	(engineEconomy {economy > 4 && economy <= 6})
@@ -620,7 +620,7 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule40
-    (carType {type == kompaktowy})
+    (carType {type == rodzinny})
 	(carSize {size == maly})
 	(enginePower {power >= 135 && power <= 165})
 	(engineEconomy {economy > 4 && economy <= 6})
@@ -635,7 +635,7 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule41
-    (carType {type == kompaktowy})
+    (carType {type == rodzinny})
 	(carSize {size == maly})
 	(enginePower {power >= 145 && power <= 175})
 	(engineEconomy {economy > 4 && economy <= 6})
@@ -651,8 +651,8 @@ bind ?*zmienna* 1)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5008
 ;;
 (defrule rule42
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 105 && power <= 145})
 	(engineEconomy {economy > 6 && economy <= 8})
 	(carPrice {price > 55000 && price <= 85000})
@@ -666,8 +666,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule43
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 105 && power <= 145})
 	(engineEconomy {economy > 6 && economy <= 8})
 	(carPrice {price > 60000 && price <= 90000})
@@ -681,8 +681,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule44
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 140 && power <= 170})
 	(engineEconomy {economy > 6 && economy <= 8})
 	(carPrice {price > 70000 && price <= 100000})
@@ -696,8 +696,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule45
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 140 && power <= 170})
 	(engineEconomy {economy > 6 && economy <= 8})
 	(carPrice {price > 80000 && price <= 110000})
@@ -711,8 +711,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule46
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 4 && economy <= 5})
 	(carPrice {price > 65000 && price <= 95000})
@@ -726,8 +726,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule47
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 4 && economy <= 5})
 	(carPrice {price > 70000 && price <= 100000})
@@ -741,8 +741,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule48
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 135 && power <= 165})
 	(engineEconomy {economy > 4 && economy <= 6})
 	(carPrice {price > 80000 && price <= 110000})
@@ -756,8 +756,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule49
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 135 && power <= 165})
 	(engineEconomy {economy > 4 && economy <= 6})
 	(carPrice {price > 90000 && price <= 120000})
@@ -771,8 +771,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule50
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 145 && power <= 175})
 	(engineEconomy {economy > 6 && economy <= 7})
 	(carPrice {price > 95000 && price <= 125000})
@@ -787,8 +787,8 @@ bind ?*zmienna* 1)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;508
 ;;
 (defrule rule51
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 105 && power <= 145})
 	(engineEconomy {economy > 5 && economy <= 7})
 	(carPrice {price > 65000 && price <= 95000})
@@ -802,8 +802,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule52
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 150 && power <= 180})
 	(engineEconomy {economy > 5 && economy <= 7})
 	(carPrice {price > 80000 && price <= 110000})
@@ -817,8 +817,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule53
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 150 && power <= 180})
 	(engineEconomy {economy > 5 && economy <= 7})
 	(carPrice {price > 90000 && price <= 120000})
@@ -832,8 +832,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule54
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 100 && power <= 130})
 	(engineEconomy {economy > 3 && economy <= 5})
 	(carPrice {price > 85000 && price <= 115000})
@@ -847,8 +847,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule55
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 125 && power <= 155})
 	(engineEconomy {economy > 3 && economy <= 5})
 	(carPrice {price > 90000 && price <= 120000})
@@ -862,8 +862,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule56
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 125 && power <= 155})
 	(engineEconomy {economy > 3 && economy <= 5})
 	(carPrice {price > 100000 && price <= 130000})
@@ -877,8 +877,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule57
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 145 && power <= 175})
 	(engineEconomy {economy > 4 && economy <= 6})
 	(carPrice {price > 95000 && price <= 12000})
@@ -892,8 +892,8 @@ bind ?*zmienna* 1)
 )
 ;;
 (defrule rule58
-    (carType {type == kompaktowy})
-	(carSize {size == maly})
+    (carType {type == rodzinny})
+	(carSize {size == duzy})
 	(enginePower {power >= 145 && power <= 175})
 	(engineEconomy {economy > 4 && economy <= 6})
 	(carPrice {price > 100000 && price <= 130000})
@@ -902,6 +902,171 @@ bind ?*zmienna* 1)
 =>
 (printout t " " crlf)
 (printout t "Peugeot 508 HDi 2.0 160KM Active 4,9 l/100km 116700zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule59
+    (carType {type == sportowy})
+	(carSize {size == duzy})
+	(enginePower {power >= 160 && power <= 190})
+	(engineEconomy {economy > 6 && economy <= 12})
+	(carPrice {price > 130000 && price <= 168000})
+	(carEquipment {equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 508 BlueHDi 2.0 180KM GT 6,5 l/100km 143900zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule60
+    (carType {type == sportowy})
+	(carSize {size == maly})
+	(enginePower {power >= 160 && power <= 190})
+	(engineEconomy {economy > 6 && economy <= 12})
+	(carPrice {price > 67000 && price <= 10000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe || equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot 208 GTi 1.6 THP 200KM GT 7,5 l/100km 81900zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule61
+    (carType {type == sportowy})
+	(carSize {size == maly || size == duzy})
+	(enginePower {power >= 120 && power <= 175})
+	(engineEconomy {economy > 6 && economy <= 9})
+	(carPrice {price > 95000 && price <= 119000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe || equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot RCZ 1.6 THP 155KM 7 l/100km 104000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule61
+    (carType {type == sportowy})
+	(carSize {size == maly || size == duzy})
+	(enginePower {power >= 120 && power <= 175})
+	(engineEconomy {economy > 5 && economy <= 9})
+	(carPrice {price > 95000 && price <= 119000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe || equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot RCZ 1.6 THP 155KM 7 l/100km 104000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule61
+    (carType {type == sportowy})
+	(carSize {size == maly || size == duzy})
+	(enginePower {power >= 175 && power <= 220})
+	(engineEconomy {economy > 6 && economy <= 12})
+	(carPrice {price > 102000 && price <= 124000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe || equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot RCZ 1.6 THP 200KM 8 l/100km 113000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule61
+    (carType {type == sportowy})
+	(carSize {size == maly || size == duzy})
+	(enginePower {power >= 175 && power <= 220})
+	(engineEconomy {economy > 4.5 && economy <= 10})
+	(carPrice {price > 102000 && price <= 124000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe || equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot RCZ 2.0 HDI 160KM 6 l/100km 116000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule62
+    (carType {type == sportowy})
+	(carSize {size == maly || size == duzy})
+	(enginePower {power >= 230 && power <= 300})
+	(engineEconomy {economy > 7 && economy <= 15})
+	(carPrice {price > 145000 && price <= 170000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe || equipment == pelne})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot RCZ R 2.0 HDI 270KM 8,8 l/100km 153000zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule62
+    (carType {type == rodzinny})
+	(carSize {size == maly)
+	(enginePower {power >= 70 && power <= 100})
+	(engineEconomy {economy > 4 && economy <= 8})
+	(carPrice {price > 52000 && price <= 64000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot Partner Tepee 1.6 HDI 92KM 5,5 l/100km 60700zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule62
+    (carType {type == rodzinny})
+	(carSize {size == maly)
+	(enginePower {power >= 101 && power <= 125})
+	(engineEconomy {economy > 5 && economy <= 9})
+	(carPrice {price > 57000 && price <= 67000})
+	(carEquipment {equipment == podstawowe || equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot Partner Tepee 1.6 HDI 115KM 6 l/100km 63300zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule62
+    (carType {type == rodzinny})
+	(carSize {size == maly)
+	(enginePower {power >= 101 && power <= 125})
+	(engineEconomy {economy > 5 && economy <= 9})
+	(carPrice {price > 60000 && price <= 70000})
+	(carEquipment {equipment == pelne || equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot Partner Tepee Outdoor 1.6 HDI 115KM 6 l/100km 66300zl " crlf)
+
+(bind ?*zmienna* 1)
+)
+
+(defrule rule62
+    (carType {type == rodzinny})
+	(carSize {size == maly)
+	(enginePower {power >= 70 && power <= 100})
+	(engineEconomy {economy > 4 && economy <= 8})
+	(carPrice {price > 58000 && price <= 67000})
+	(carEquipment {equipment == pelne || equipment == komfortowe})
+	
+=>
+(printout t " " crlf)
+(printout t "Peugeot Partner Tepee 1.6 HDI 92KM 5,5 l/100km 64200zl " crlf)
 
 (bind ?*zmienna* 1)
 )
