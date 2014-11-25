@@ -1,0 +1,6 @@
+(assert (carType(type rodzinny)))
+(assert (carType(type maly)))
+(assert (carType(type 100)))
+(assert (carType(type 7)))
+(assert (carType(type 70000)))
+(assert (carType(type podstawowe)))

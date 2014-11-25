@@ -51,7 +51,7 @@ namespace jess
         private void button2_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("jess.bat ", "peugeot.clp");
-            richTextBox1.Clear();
+
             string wyn = "wyniki.txt";
             string[] lines = System.IO.File.ReadAllLines(wyn);
 
@@ -59,7 +59,7 @@ namespace jess
             ArrayList Samochody = new ArrayList();
             foreach (string line in lines)
             {
-                richTextBox1.Text += line + Environment.NewLine;
+ 
 
                 flaga++;
                 if(flaga>1)
