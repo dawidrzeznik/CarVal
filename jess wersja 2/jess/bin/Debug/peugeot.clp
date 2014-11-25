@@ -1,7 +1,7 @@
-(batch fakty.clp)
 (open "wyniki.txt" file "w")
 (clear)
 (reset)
+
 (bind ?*zmienna* 0)
 
 (deftemplate carType (slot type))
@@ -11,7 +11,7 @@
 (deftemplate carPrice (slot price))
 (deftemplate carEquipment (slot equipment))
 
-
+(batch fakty.clp)
 
 
 (printout file "System ekspertowy proponuje: " crlf)

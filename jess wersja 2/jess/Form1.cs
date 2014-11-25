@@ -36,20 +36,21 @@ namespace jess
         private void button1_Click(object sender, EventArgs e)
         {
             File.Delete("fakty.clp");
-            
+            //File.Delete("wyniki.txt");
             StreamWriter sw = new StreamWriter("fakty.clp");
             sw.WriteLine("(assert (carType(type " + typeCombo.Text + ")))");
-            sw.WriteLine("(assert (carType(type " + sizeCombo.Text + ")))");
-            sw.WriteLine("(assert (carType(type " + powerBox.Text + ")))");
-            sw.WriteLine("(assert (carType(type " + economyBox.Text + ")))");
-            sw.WriteLine("(assert (carType(type " + priceBox.Text + ")))");
-            sw.WriteLine("(assert (carType(type " + stuffCombo.Text + ")))");
+            sw.WriteLine("(assert (carSize(size " + sizeCombo.Text + ")))");
+            sw.WriteLine("(assert (enginePower(power " + powerBox.Text + ")))");
+            sw.WriteLine("(assert (engineEconomy(economy " + economyBox.Text + ")))");
+            sw.WriteLine("(assert (carPrice(price " + priceBox.Text + ")))");
+            sw.WriteLine("(assert (carEquipment(equipment " + stuffCombo.Text + ")))");
 
             sw.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //System.IO.File.CreateText("wyniki.txt");
             System.Diagnostics.Process.Start("jess.bat ", "peugeot.clp");
 
             string wyn = "wyniki.txt";
@@ -125,6 +126,11 @@ namespace jess
             catch (Exception)
             { }
           
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
