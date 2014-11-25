@@ -7,3 +7,6 @@ c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess
 c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.csproj.GenerateResource.Cache
 c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.exe
 c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.pdb
+D:\repo\CarVal\jess\jess\bin\Debug\jess.exe.config
+D:\repo\CarVal\jess\jess\obj\Debug\jess.exe
+D:\repo\CarVal\jess\jess\obj\Debug\jess.pdb
