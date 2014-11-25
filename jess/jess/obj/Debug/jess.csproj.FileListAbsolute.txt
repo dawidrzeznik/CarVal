@@ -1,0 +1,9 @@
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\bin\Debug\jess.exe.config
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\bin\Debug\jess.exe
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\bin\Debug\jess.pdb
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.Form1.resources
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.Properties.Resources.resources
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.csproj.GenerateResource.Cache
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.exe
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.pdb
