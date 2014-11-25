@@ -41,12 +41,10 @@
             this.economyBox = new System.Windows.Forms.TextBox();
             this.priceBox = new System.Windows.Forms.TextBox();
             this.stuffCombo = new System.Windows.Forms.ComboBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // typeCombo
@@ -169,14 +167,6 @@
             this.stuffCombo.Size = new System.Drawing.Size(111, 21);
             this.stuffCombo.TabIndex = 12;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(231, 40);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(359, 187);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -188,7 +178,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 375);
+            this.button1.Location = new System.Drawing.Point(15, 257);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 35);
             this.button1.TabIndex = 15;
@@ -198,7 +188,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(124, 375);
+            this.button2.Location = new System.Drawing.Point(127, 257);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 35);
             this.button2.TabIndex = 16;
@@ -209,32 +199,21 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(231, 262);
+            this.listBox1.Location = new System.Drawing.Point(231, 31);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(359, 95);
+            this.listBox1.Size = new System.Drawing.Size(359, 199);
             this.listBox1.TabIndex = 17;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_DoubleClick);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(231, 243);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Szczegóły:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 422);
-            this.Controls.Add(this.label9);
+            this.ClientSize = new System.Drawing.Size(602, 308);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.stuffCombo);
             this.Controls.Add(this.priceBox);
             this.Controls.Add(this.economyBox);
@@ -270,12 +249,10 @@
         private System.Windows.Forms.TextBox economyBox;
         private System.Windows.Forms.TextBox priceBox;
         private System.Windows.Forms.ComboBox stuffCombo;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Label label9;
     }
 }
 
