@@ -79,44 +79,51 @@ namespace jess
             
         }
 
-        private void listBox1_DoubleClick(object sender, System.EventArgs e)
+        private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            string wyn = "stronki_auta.txt";
-            string[] lines = System.IO.File.ReadAllLines(wyn);
-            ArrayList Strona = new ArrayList();
-            ArrayList Samochod = new ArrayList();
-            int dlugosc;
-
-            foreach (string line in lines)
+            try
             {
-                dlugosc = line.Length;
+                int index = this.listBox1.IndexFromPoint(e.Location);
 
-                for (int i = 0; i < dlugosc; i++)
+
+                string wyn = "stronki_auta.txt";
+                string[] lines = System.IO.File.ReadAllLines(wyn);
+                ArrayList Strona = new ArrayList();
+                ArrayList Samochod = new ArrayList();
+                int dlugosc;
+
+                foreach (string line in lines)
                 {
-                    if (line[i] == ';')
-                    {                     
+                    dlugosc = line.Length;
+
+                    for (int i = 0; i < dlugosc; i++)
+                    {
+                        if (line[i] == ';')
+                        {
                             Samochod.Add(line.Substring(0, i));
-                           Strona.Add(line.Substring(i+1));                     
+                            Strona.Add(line.Substring(i + 1));
+                        }
                     }
                 }
-            }
 
 
-            String samochod = listBox1.SelectedItem.ToString();
+                String samochod = listBox1.SelectedItem.ToString();
 
-            for (int i = 0; i < Strona.Count; i++)
-            {
-                if (samochod == (String)Samochod[i])
+                for (int i = 0; i < Strona.Count; i++)
                 {
-                    System.Diagnostics.Process.Start((String)Strona[i]);
+                    if (samochod == (String)Samochod[i])
+                    {
+                        System.Diagnostics.Process.Start((String)Strona[i]);
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("Brak stronki w bazie!");
+                    }
                 }
-                else
-                {
-                    System.Console.WriteLine("Brak stronki w bazie!");
-                }
+
             }
-           
-                    
+            catch (Exception)
+            { }
           
         }
     }
