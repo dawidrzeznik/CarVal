@@ -87,8 +87,9 @@ namespace jess
         {
             try
             {
-                int index = this.listBox1.IndexFromPoint(e.Location);
+                int index = listBox1.IndexFromPoint(e.Location);
 
+                System.Console.WriteLine("Brak stronki w bazie!");
 
                 string wyn = "stronki_auta.txt";
                 string[] lines = System.IO.File.ReadAllLines(wyn);
@@ -106,6 +107,7 @@ namespace jess
                         {
                             Samochod.Add(line.Substring(0, i));
                             Strona.Add(line.Substring(i + 1));
+                            
                         }
                     }
                 }
