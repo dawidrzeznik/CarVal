@@ -1,0 +1,6 @@
+(assert (carType(type kompaktowy)))
+(assert (carSize(size maly)))
+(assert (enginePower(power 90)))
+(assert (engineEconomy(economy 7)))
+(assert (carPrice(price 55000)))
+(assert (carEquipment(equipment podstawowe)))
