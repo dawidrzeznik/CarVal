@@ -1,6 +1,7 @@
-(open "wyniki.txt" file "w")
+
 (clear)
-(reset)
+(open "wyniki.txt" file "w")
+;;(reset)
 (bind ?*zmienna* 0)
 
 (deftemplate carType (slot type))
@@ -1100,15 +1101,20 @@
 
 ;;uruchamianie
 ;;(facts)
+(;;run)
+
+(reset)
 (run)
 
-(if (= ?*zmienna* 0) then
-(printout file " " crlf
-"Niestety dla wybranych przez Pana/Pania parametrow " crlf 
-" " crlf
-"system ekspertowy nie znalazl odpowieniego modelu " crlf
-" " crlf
-"prosze ponownie uruchomic system i wprowadzic inne parametry " crlf))
+(close file)
+
+;;(if (= ?*zmienna* 0) then
+;;(printout file " " crlf
+;;"Niestety dla wybranych przez Pana/Pania parametrow " crlf 
+;;" " crlf
+;;"system ekspertowy nie znalazl odpowieniego modelu " crlf
+;;" " crlf
+;;"prosze ponownie uruchomic system i wprowadzic inne parametry " crlf))
 
 
 
