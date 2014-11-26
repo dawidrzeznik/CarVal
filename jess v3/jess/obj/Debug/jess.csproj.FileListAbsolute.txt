@@ -1,0 +1,54 @@
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\bin\Debug\jess.exe.config
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\bin\Debug\jess.exe
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\bin\Debug\jess.pdb
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.Form1.resources
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.Properties.Resources.resources
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.csproj.GenerateResource.Cache
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.exe
+c:\users\dawidziu\documents\visual studio 2013\Projects\jess\jess\obj\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\bin\Debug\jess.exe.config
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\obj\Debug\jess.exe
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\obj\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\bin\Debug\jess.exe
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\bin\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\obj\Debug\jess.Form1.resources
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\obj\Debug\jess.Properties.Resources.resources
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess\jess\obj\Debug\jess.csproj.GenerateResource.Cache
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\bin\Debug\jess.exe.config
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\obj\Debug\jess.exe
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\obj\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\bin\Debug\jess.exe
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\bin\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\obj\Debug\jess.Form1.resources
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\obj\Debug\jess.Properties.Resources.resources
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess wersja 2\jess\obj\Debug\jess.csproj.GenerateResource.Cache
+D:\repo\CarVal\jess wersja 2\jess\bin\Debug\jess.exe.config
+D:\repo\CarVal\jess wersja 2\jess\obj\Debug\jess.exe
+D:\repo\CarVal\jess wersja 2\jess\obj\Debug\jess.pdb
+D:\repo\CarVal\jess wersja 2\jess\bin\Debug\jess.exe
+D:\repo\CarVal\jess wersja 2\jess\bin\Debug\jess.pdb
+D:\repo\CarVal\jess wersja 2\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+D:\repo\CarVal\jess wersja 2\jess\obj\Debug\jess.Form1.resources
+D:\repo\CarVal\jess wersja 2\jess\obj\Debug\jess.Properties.Resources.resources
+D:\repo\CarVal\jess wersja 2\jess\obj\Debug\jess.csproj.GenerateResource.Cache
+D:\jess wersja 2\jess\bin\Debug\jess.exe.config
+D:\jess wersja 2\jess\obj\Debug\jess.exe
+D:\jess wersja 2\jess\obj\Debug\jess.pdb
+D:\jess wersja 2\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+D:\jess wersja 2\jess\obj\Debug\jess.Form1.resources
+D:\jess wersja 2\jess\obj\Debug\jess.Properties.Resources.resources
+D:\jess wersja 2\jess\obj\Debug\jess.csproj.GenerateResource.Cache
+D:\jess wersja 2\jess\bin\Debug\jess.exe
+D:\jess wersja 2\jess\bin\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\bin\Debug\jess.exe.config
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\obj\Debug\jess.exe
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\obj\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\bin\Debug\jess.exe
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\bin\Debug\jess.pdb
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\obj\Debug\jess.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\obj\Debug\jess.Form1.resources
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\obj\Debug\jess.Properties.Resources.resources
+C:\Users\Łukasz\SkyDrive\AGH\Podstawy sztucznej inteligencji\PROJEKT\PROJEKT\CarVal\jess v3\jess\obj\Debug\jess.csproj.GenerateResource.Cache

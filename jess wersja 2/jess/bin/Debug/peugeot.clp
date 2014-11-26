@@ -1,6 +1,7 @@
 (open "wyniki.txt" file "w")
 (clear)
 (reset)
+
 (bind ?*zmienna* 0)
 
 (deftemplate carType (slot type))

@@ -1,0 +1,6 @@
+(assert (carType(type sportowy)))
+(assert (carType(type duzy)))
+(assert (carType(type 43)))
+(assert (carType(type 434)))
+(assert (carType(type 43)))
+(assert (carType(type komfortowe)))
